@@ -31,7 +31,7 @@ const MobileDrawer = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}>
-                <MenuItem minH='50px'>Home</MenuItem>
+                <MenuItem minH='50px'>HOME</MenuItem>
               </Link>
               <Link
                 to='trendy'
@@ -39,7 +39,7 @@ const MobileDrawer = () => {
                 smooth={true}
                 offset={-50}
                 duration={500}>
-                <MenuItem minH='50px'>Trendy Collections</MenuItem>
+                <MenuItem minH='50px'>TRENDY COLLECTIONS</MenuItem>
               </Link>
               <Link
                 to='collections'
@@ -47,7 +47,7 @@ const MobileDrawer = () => {
                 smooth={true}
                 offset={-50}
                 duration={500}>
-                <MenuItem minH='50px'>All Collections</MenuItem>
+                <MenuItem minH='50px'>ALL COLLECTIONS</MenuItem>
               </Link>
               <Link
                 to='testimonials'
@@ -55,7 +55,7 @@ const MobileDrawer = () => {
                 smooth={true}
                 offset={-50}
                 duration={500}>
-                <MenuItem minH='50px'>Testimonials</MenuItem>
+                <MenuItem minH='50px'>TESTIMONIALS</MenuItem>
               </Link>
               <Link
                 to='newsletter'
@@ -63,7 +63,7 @@ const MobileDrawer = () => {
                 smooth={true}
                 offset={-50}
                 duration={500}>
-                <MenuItem minH='50px'>News Letter</MenuItem>
+                <MenuItem minH='50px'>NEWS LETTER</MenuItem>
               </Link>
               <Link
                 to='contact'
@@ -71,7 +71,7 @@ const MobileDrawer = () => {
                 smooth={true}
                 offset={-50}
                 duration={500}>
-                <MenuItem minH='50px'>Contact Us</MenuItem>
+                <MenuItem minH='50px'>CONTACT US</MenuItem>
               </Link>
             </MenuList>
           </Portal>
