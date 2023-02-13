@@ -23,9 +23,9 @@ const HeroComponent = () => {
   };
 
   const animTag = {
-    hidden: { x: 100, opacity: 0 },
+    hidden: { y: 100, opacity: 0 },
     visible: {
-      x: 0,
+      y: 0,
       opacity: 1,
       // rotate: [5, -10, 0],
       transition: { duration: 3 },
