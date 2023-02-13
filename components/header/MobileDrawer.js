@@ -31,7 +31,7 @@ const MobileDrawer = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}>
-                <MenuItem>Home</MenuItem>
+                <MenuItem minH='50px'>Home</MenuItem>
               </Link>
               <Link
                 to='trendy'
@@ -39,7 +39,7 @@ const MobileDrawer = () => {
                 smooth={true}
                 offset={-50}
                 duration={500}>
-                <MenuItem>Trendy Collections</MenuItem>
+                <MenuItem minH='50px'>Trendy Collections</MenuItem>
               </Link>
               <Link
                 to='collections'
@@ -47,7 +47,7 @@ const MobileDrawer = () => {
                 smooth={true}
                 offset={-50}
                 duration={500}>
-                <MenuItem>All Collections</MenuItem>
+                <MenuItem minH='50px'>All Collections</MenuItem>
               </Link>
               <Link
                 to='testimonials'
@@ -55,7 +55,7 @@ const MobileDrawer = () => {
                 smooth={true}
                 offset={-50}
                 duration={500}>
-                <MenuItem>Testimonials</MenuItem>
+                <MenuItem minH='50px'>Testimonials</MenuItem>
               </Link>
               <Link
                 to='newsletter'
@@ -63,7 +63,7 @@ const MobileDrawer = () => {
                 smooth={true}
                 offset={-50}
                 duration={500}>
-                <MenuItem>News Letter</MenuItem>
+                <MenuItem minH='50px'>News Letter</MenuItem>
               </Link>
               <Link
                 to='contact'
@@ -71,7 +71,7 @@ const MobileDrawer = () => {
                 smooth={true}
                 offset={-50}
                 duration={500}>
-                <MenuItem>Contact Us</MenuItem>
+                <MenuItem minH='50px'>Contact Us</MenuItem>
               </Link>
             </MenuList>
           </Portal>

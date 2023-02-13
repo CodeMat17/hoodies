@@ -42,6 +42,8 @@ const AllCollections = () => {
               setAllProducts(products);
               setLoading(false);
             }}
+            // size='lg'
+            fontSize='lg'
             isLoading={loading}
             variant='ghost'
             bg={activeBtn === "all" && "#cb8f15"}>
@@ -54,6 +56,7 @@ const AllCollections = () => {
               filter("nike");
               setLoading(false);
             }}
+            fontSize='lg'
             isLoading={loading}
             variant='ghost'
             bg={activeBtn === "nike" && "#cb8f15"}>
@@ -66,6 +69,7 @@ const AllCollections = () => {
               filter("adidas");
               setLoading(false);
             }}
+            fontSize='lg'
             isLoading={loading}
             variant='ghost'
             bg={activeBtn === "adidas" && "#cb8f15"}>
@@ -78,6 +82,7 @@ const AllCollections = () => {
               filter("puma");
               setLoading(false);
             }}
+            fontSize='lg'
             isLoading={loading}
             variant='ghost'
             bg={activeBtn === "puma" && "#cb8f15"}>

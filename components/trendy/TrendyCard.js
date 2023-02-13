@@ -1,4 +1,4 @@
-import { Badge, Box, Image, Text } from "@chakra-ui/react";
+import { Badge, Box, Image, Tag, Text } from "@chakra-ui/react";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -28,16 +28,16 @@ const TrendyCard = ({ name, desc, img, price }) => {
           bottom='4'
           right='4'
           fontSize='2xl'
-          fontWeight='light'>
+          fontWeight='medium'>
           ₦{formatedPrice}
         </Text>
-        <Badge
+        <Tag size='lg'
           pos='absolute'
           bottom='4' shadow='dark-lg' px='2' py='1'
           left='4' rounded='full'        
           fontWeight='light'>
          NEW
-        </Badge>
+        </Tag>
       </Box>
     </Box>
   );

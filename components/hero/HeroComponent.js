@@ -48,7 +48,7 @@ const HeroComponent = () => {
       x: 0,
       opacity: 1,
       // rotate: [5, -10, 0],
-      transition: { duration: 3, delay: 0.5 },
+      transition: { duration: 3, delay: 0.3 },
     },
   };
 
