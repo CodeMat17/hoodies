@@ -102,7 +102,7 @@ const HeroComponent = () => {
         shadow='dark-lg'
         p='2'
         pos='absolute'
-        left='24px'
+        left={{base: '24px', sm: '50px', md: '95px'}}
         top='70px'
         color='white'
         lineHeight='shorter'
@@ -121,7 +121,7 @@ const HeroComponent = () => {
       <Box
         pos='absolute'
         right='0'
-        top='0'
+        top={{base: 0, sm: 0, md: '-8'}}
         lineHeight='shorter'
         textAlign='center'
         fontSize='sm'
@@ -187,7 +187,7 @@ const HeroComponent = () => {
           px='4'
           textAlign={{ base: "center", md: "start" }}
           lineHeight='shorter'
-          fontWeight=''>
+         >
           <Text color='white' fontSize={{ base: "5xl", md: "6xl" }}>
             Hoodies eShop
           </Text>
