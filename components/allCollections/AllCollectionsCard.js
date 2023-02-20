@@ -54,7 +54,7 @@ const AllCollectionsCard = ({
           </Tag>
         ) : (
           <Tag size='lg' fontWeight='medium' bg='red.300'>
-            Not stock
+            Not in stock
           </Tag>
         )}
       </Box>
